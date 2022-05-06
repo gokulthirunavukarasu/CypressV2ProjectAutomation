@@ -1,0 +1,567 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creating and validating Team",
+    "line": 9,
+    "id": "creating-and-validating-team",
+    "tags": [],
+    "uri": "F11-Team.feature",
+    "elements": [
+      {
+        "id": "creating-and-validating-team;verifies-the-team-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verifies the Team Page",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to the Team page by logging in to wellcertified Account",
+            "result": {
+              "status": "passed",
+              "duration": 31564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User will be redirected to Team page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User verifies the your WELL Certification Team page fields",
+            "result": {
+              "status": "passed",
+              "duration": 260000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;verifies-the-add-member-fields",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verifies the Add member fields",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "User navigate to the Team page",
+            "result": {
+              "status": "passed",
+              "duration": 2655000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "User click on Add member button and verifies Add member form fields",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User clicks on Invite button without entering the mandatory fields for Add member and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User enters data to Email Address and Project Role fields",
+            "result": {
+              "status": "passed",
+              "duration": 1661000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User selects the Project Authorization option",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User clicks on invite button",
+            "result": {
+              "status": "passed",
+              "duration": 2360000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "User will be redirected to Team list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User verifies added member in Team list",
+            "result": {
+              "status": "passed",
+              "duration": 651000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;verifies-the-updates-add-member-fields",
+        "keyword": "Scenario",
+        "line": 32,
+        "name": "Verifies the updates Add member fields",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 31
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 33,
+            "name": "User navigate to the Team page",
+            "result": {
+              "status": "passed",
+              "duration": 1148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 34,
+            "name": "User click on edit button and verifies Update member form fields",
+            "result": {
+              "status": "passed",
+              "duration": 2732000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "User enters data to the Email Address and Project Role fields",
+            "result": {
+              "status": "passed",
+              "duration": 624000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "User selects the Project Authorization option",
+            "result": {
+              "status": "passed",
+              "duration": 106000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User clicks on update button",
+            "result": {
+              "status": "passed",
+              "duration": 369000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "User will be redirected to the Team list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User verifies update member in Team list",
+            "result": {
+              "status": "passed",
+              "duration": 2163000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;verifies-the-delete-team-member",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Verifies the Delete Team member",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 42
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 44,
+            "name": "User navigate to the Team page",
+            "result": {
+              "status": "passed",
+              "duration": 911000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "User click on delete button",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "User verifies deleted member in Team list",
+            "result": {
+              "status": "passed",
+              "duration": 145000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;verifies-the-add-member-for-non-user-fields",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Verifies the Add member for Non User fields",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "User navigate to the Team page",
+            "result": {
+              "status": "passed",
+              "duration": 983000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "User click on Add member button and verifies Add member form fields",
+            "result": {
+              "status": "passed",
+              "duration": 266000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "User clicks on Invite button without entering the mandatory fields for Add member and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 917000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User enters data to Email Address and Project Role fields for Non User",
+            "result": {
+              "status": "passed",
+              "duration": 1352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "User selects the Project Authorization option",
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User clicks on invite button",
+            "result": {
+              "status": "passed",
+              "duration": 2382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 57,
+            "name": "User will be redirected to Team list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1053000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User verifies invite pending in Team list for Non User",
+            "result": {
+              "status": "passed",
+              "duration": 2345000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;well-certification-team-creation",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Well certification Team Creation",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 61
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "User navigate to the Team page by logging in to well core certified Account",
+            "result": {
+              "status": "passed",
+              "duration": 23659000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "User clicks on Add member button",
+            "result": {
+              "status": "passed",
+              "duration": 3455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "User enters data to Email Address and Project Role fields",
+            "result": {
+              "status": "passed",
+              "duration": 1987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User selects the Project Authorization option",
+            "result": {
+              "status": "passed",
+              "duration": 397000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "User clicks on invite button",
+            "result": {
+              "status": "passed",
+              "duration": 2447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 68,
+            "name": "User verifies added member in Team list",
+            "result": {
+              "status": "passed",
+              "duration": 1836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "User click on edit button",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User enters data to the Email Address and Project Role fields",
+            "result": {
+              "status": "passed",
+              "duration": 1252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 71,
+            "name": "User clicks on update button",
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 72,
+            "name": "User will be redirected to the Team list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-team;verifies-the-change-project-administrator",
+        "keyword": "Scenario",
+        "line": 76,
+        "name": "Verifies the Change Project Administrator",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 75
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 77,
+            "name": "User navigate to the Team page",
+            "result": {
+              "status": "passed",
+              "duration": 2716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 78,
+            "name": "User click on Change Project Administrator button and verifies Change Project Administrator fields",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "User clicks on update button without entering the mandatory fields for Change Project Administrator and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User enters data to Email Address and Project Role in Change Project Administrator fields",
+            "result": {
+              "status": "passed",
+              "duration": 3610000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User clicks on update button for Change Project Administrator",
+            "result": {
+              "status": "passed",
+              "duration": 2359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "User will be redirected to the Team list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

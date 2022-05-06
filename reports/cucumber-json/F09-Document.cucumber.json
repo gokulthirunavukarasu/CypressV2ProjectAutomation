@@ -1,0 +1,227 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Upload and Validating Document",
+    "line": 9,
+    "id": "upload-and-validating-document",
+    "tags": [],
+    "uri": "F09-Document.feature",
+    "elements": [
+      {
+        "id": "upload-and-validating-document;upload-document-to-document",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Upload Document to Document",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Document page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 21904000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Document tab",
+            "result": {
+              "status": "passed",
+              "duration": 2432000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks on Upload Document page",
+            "result": {
+              "status": "passed",
+              "duration": 2582000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User select the Feature type",
+            "result": {
+              "status": "passed",
+              "duration": 870000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User select the Verification Method",
+            "result": {
+              "status": "passed",
+              "duration": 1748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User select the Part",
+            "result": {
+              "status": "passed",
+              "duration": 4084000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User Upload the Document",
+            "result": {
+              "status": "passed",
+              "duration": 2179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User clicks on upload button",
+            "result": {
+              "status": "passed",
+              "duration": 2319000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User clicks on Upload Document page",
+            "result": {
+              "status": "passed",
+              "duration": 2608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User select the Ongoing data report type",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User select the Part in Ongoing data report type",
+            "result": {
+              "status": "passed",
+              "duration": 3709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User select the Period in Ongoing data report type",
+            "result": {
+              "status": "passed",
+              "duration": 505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User Upload the Document",
+            "result": {
+              "status": "passed",
+              "duration": 2161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User clicks on upload button",
+            "result": {
+              "status": "passed",
+              "duration": 2367000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User clicks on Upload Document page",
+            "result": {
+              "status": "passed",
+              "duration": 2575000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User select the Performance type",
+            "result": {
+              "status": "passed",
+              "duration": 908000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User select the Part in Performance type",
+            "result": {
+              "status": "passed",
+              "duration": 2149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User Upload the Document",
+            "result": {
+              "status": "passed",
+              "duration": 2183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "User clicks on upload button",
+            "result": {
+              "status": "passed",
+              "duration": 2363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "User will be redirected to Performance List successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2883000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

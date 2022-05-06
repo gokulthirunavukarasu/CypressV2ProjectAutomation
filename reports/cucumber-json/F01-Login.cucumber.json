@@ -1,0 +1,142 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F01-WELLCertified login",
+    "line": 9,
+    "id": "f01-wellcertified-login",
+    "tags": [],
+    "uri": "F01-Login.feature",
+    "elements": [
+      {
+        "id": "f01-wellcertified-login;login-to-application-with-invalid-user-credentials",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to application with Invalid user credentials",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to Wellcertified page",
+            "result": {
+              "status": "passed",
+              "duration": 13957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User verifies login page fields",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User enters invalid username and password",
+            "result": {
+              "status": "passed",
+              "duration": 1498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User clicks on Sign IN button",
+            "result": {
+              "status": "passed",
+              "duration": 853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "User verifes the error message for invalid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 1896000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User login must be unsuccessful",
+            "result": {
+              "status": "passed",
+              "duration": 97000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f01-wellcertified-login;login-to-application-with-valid-user-credentials",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Login to application with valid user credentials",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "User navigate to Wellcertified page",
+            "result": {
+              "status": "passed",
+              "duration": 12121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "User enters username and password",
+            "result": {
+              "status": "passed",
+              "duration": 3303000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User clicks on Sign IN button",
+            "result": {
+              "status": "passed",
+              "duration": 425000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "User login must be successful",
+            "result": {
+              "status": "passed",
+              "duration": 6189000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

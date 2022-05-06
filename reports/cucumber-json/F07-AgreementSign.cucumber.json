@@ -1,0 +1,272 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F07-WELLCertified Agreement Sign",
+    "line": 10,
+    "id": "f07-wellcertified-agreement-sign",
+    "tags": [],
+    "uri": "F07-AgreementSign.feature",
+    "elements": [
+      {
+        "id": "f07-wellcertified-agreement-sign;agreement-sign-for-the-well-'wellv2project'",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Agreement Sign for the WELL 'WellV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Dashboard page by selecting the project Id 'WellV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 28872000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Sign now button",
+            "result": {
+              "status": "passed",
+              "duration": 2210000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User will be redirected to WELL V2 Project Dashboard page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 194000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User Verifies Download Agreement",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Documents, Scorecard, Reviews, Promotions, Support, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 2763000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f07-wellcertified-agreement-sign;agreement-sign-for-the-well-'chinav2project'",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Agreement Sign for the WELL 'ChinaV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Dashboard page by selecting the project Id 'ChinaV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 30771000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Sign now button",
+            "result": {
+              "status": "passed",
+              "duration": 930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User will be redirected to WELL V2 Project Dashboard page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User Verifies Download Agreement",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Documents, Scorecard, Reviews, Promotions, Support, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 2786000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f07-wellcertified-agreement-sign;agreement-sign-for-the-well-'hongkongv2project'",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Agreement Sign for the WELL 'HongKongV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Dashboard page by selecting the project Id 'HongKongV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 27384000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Sign now button",
+            "result": {
+              "status": "passed",
+              "duration": 898000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User will be redirected to WELL V2 Project Dashboard page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User Verifies Download Agreement",
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Documents, Scorecard, Reviews, Promotions, Support, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 2905000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f07-wellcertified-agreement-sign;agreement-sign-for-the-well-'macaov2project'",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Agreement Sign for the WELL 'MacaoV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Dashboard page by selecting the project Id 'MacaoV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 30675000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Sign now button",
+            "result": {
+              "status": "passed",
+              "duration": 1096000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User will be redirected to WELL V2 Project Dashboard page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 219000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User Verifies Download Agreement",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Documents, Scorecard, Reviews, Promotions, Support, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 3330000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

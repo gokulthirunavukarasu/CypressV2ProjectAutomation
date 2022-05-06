@@ -1,0 +1,215 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Review",
+    "line": 9,
+    "id": "review",
+    "tags": [],
+    "uri": "F14-Review.feature",
+    "elements": [
+      {
+        "id": "review;verifies-the-review",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verifies the Review",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigates to the Reviews page by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 34625000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks on Reviews button",
+            "result": {
+              "status": "passed",
+              "duration": 609000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User will be redirected to Reviews page",
+            "result": {
+              "status": "passed",
+              "duration": 3214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User verifies Only project administrators and team managers are allowed to submit documentation for review message",
+            "result": {
+              "status": "passed",
+              "duration": 222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User verifies features are marked as either a YES or NO message",
+            "result": {
+              "status": "passed",
+              "duration": 198000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User verifies preconditions are marked as either a YES or NO message",
+            "result": {
+              "status": "passed",
+              "duration": 471000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User verifies Reviews fields",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "review;verifies-review-page",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verifies Review page",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "User navigating to the Review Page",
+            "result": {
+              "status": "passed",
+              "duration": 4967000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "User clicks on Submit Reviews button",
+            "result": {
+              "status": "passed",
+              "duration": 772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User clicks on submit button without entering the mandatory fields and verifies error meassage",
+            "result": {
+              "status": "passed",
+              "duration": 755000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User selects the project phase and verifies options",
+            "result": {
+              "status": "passed",
+              "duration": 1336000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User enters the comment",
+            "result": {
+              "status": "passed",
+              "duration": 1381000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User clicks on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "User will be redirected to projects Reviews list page",
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User verifies the Submitted and Estimated Review date",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: expected '\\n              Apr 18, 2022\\n            ' to equal undefined\n    at Context.eval (https://test-nuxt.wellcertified.com/__cypress/tests?p=cypress\\integration\\F14-Review.feature:155:32)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User verifies Review phase",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User verifies status",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

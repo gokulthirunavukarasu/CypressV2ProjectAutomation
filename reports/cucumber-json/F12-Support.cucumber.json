@@ -1,0 +1,497 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creating and validating Support",
+    "line": 9,
+    "id": "creating-and-validating-support",
+    "tags": [],
+    "uri": "F12-Support.feature",
+    "elements": [
+      {
+        "id": "creating-and-validating-support;verifies-the-support-page",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verifies the Support Page",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to the Support page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 25530000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "User will be redirected to Support page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 184000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User verifies the your WELL Certification Support page fields",
+            "result": {
+              "status": "passed",
+              "duration": 5573000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-support;verifies-the-resource-page",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Verifies the Resource Page",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "User navigate to the Resource page",
+            "result": {
+              "status": "passed",
+              "duration": 3188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "User verifies card count for Getting Started",
+            "result": {
+              "status": "passed",
+              "duration": 4217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User verifies card count for Toolkits",
+            "result": {
+              "status": "passed",
+              "duration": 393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies card count for Documentation Prep",
+            "result": {
+              "status": "passed",
+              "duration": 4086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User verifies card count for Alternatives and Innovations",
+            "result": {
+              "status": "passed",
+              "duration": 1462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User verifies card count for Performance Testing",
+            "result": {
+              "status": "passed",
+              "duration": 1694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User verifies card count for Reviews",
+            "result": {
+              "status": "passed",
+              "duration": 1178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User verifies card count for Award",
+            "result": {
+              "status": "passed",
+              "duration": 445000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User verifies card count for Provide annual reporting",
+            "result": {
+              "status": "passed",
+              "duration": 831000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User verifies card count for COVID-19 Support",
+            "result": {
+              "status": "passed",
+              "duration": 1999000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User verifies card count for Guidebooks",
+            "result": {
+              "status": "passed",
+              "duration": 1064000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User verifies card count for Legal Forms",
+            "result": {
+              "status": "passed",
+              "duration": 1071000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User verifies card count for Getting Started with WELL series",
+            "result": {
+              "status": "passed",
+              "duration": 1399000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User verifies card count for WELL Tutorials",
+            "result": {
+              "status": "passed",
+              "duration": 707000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-support;verifies-the-gethelp",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Verifies the GetHelp",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "User navigate to the GetHelp page",
+            "result": {
+              "status": "passed",
+              "duration": 2952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "User clicks on Submit button without entering the mandatory fields for Support and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 2721000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User enters data to subject and description fields",
+            "result": {
+              "status": "passed",
+              "duration": 2323000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User selects the Question About option",
+            "result": {
+              "status": "passed",
+              "duration": 652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "User uploads file in documents",
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 44,
+            "name": "User clicks on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 5696000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "User will be redirected to Inbox page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2427000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-support;verifies-the-inbox-fields-in-support-page",
+        "keyword": "Scenario",
+        "line": 49,
+        "name": "Verifies the Inbox fields in Support Page",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "User navigate to the Inbox page",
+            "result": {
+              "status": "passed",
+              "duration": 678000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "User clicks on Comment button without entering the mandatory fields for Support and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "User enters comments",
+            "result": {
+              "status": "passed",
+              "duration": 2893000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "User uploads file in documents",
+            "result": {
+              "status": "passed",
+              "duration": 110000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User clicks on Comment button",
+            "result": {
+              "status": "passed",
+              "duration": 2403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "User will be redirected to Inbox page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2482000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User verifies the status",
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-and-validating-support;v2-project-support-creation",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "V2 Project Support Creation",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 59
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 61,
+            "name": "User navigate to the Support page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 24281000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 62,
+            "name": "User navigate to the GetHelp page",
+            "result": {
+              "status": "passed",
+              "duration": 5048000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 63,
+            "name": "User enters data to subject and description fields",
+            "result": {
+              "status": "passed",
+              "duration": 3782000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "User selects the Question About option",
+            "result": {
+              "status": "passed",
+              "duration": 849000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "User uploads file in documents",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User clicks on submit button",
+            "result": {
+              "status": "passed",
+              "duration": 5346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "User enters comments",
+            "result": {
+              "status": "passed",
+              "duration": 3031000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "User uploads file in documents",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 69,
+            "name": "User clicks on Comment button",
+            "result": {
+              "status": "passed",
+              "duration": 2555000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "User will be redirected to Inbox page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2722000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

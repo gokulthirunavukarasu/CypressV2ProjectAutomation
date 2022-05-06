@@ -1,0 +1,137 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F02-Validating V2 Projects list",
+    "line": 9,
+    "id": "f02-validating-v2-projects-list",
+    "tags": [],
+    "uri": "F02-WellV2ProjectsList.feature",
+    "elements": [
+      {
+        "id": "f02-validating-v2-projects-list;well-v2-projects-list-validation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "WELL V2 Projects List validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User logged in to the WELL certified account",
+            "result": {
+              "status": "passed",
+              "duration": 11607000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks on WELL Certification from top menu under projects",
+            "result": {
+              "status": "passed",
+              "duration": 6620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User will be redirected to the WELL Certification projects list page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 3143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User verifies the WELL Certification enrollments list fields",
+            "result": {
+              "status": "passed",
+              "duration": 1255000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User verifies the search by ID",
+            "result": {
+              "status": "passed",
+              "duration": 7584000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User verifies the search by Name",
+            "result": {
+              "status": "passed",
+              "duration": 6203000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User verifies the search by Country name India, China, Macao, Hongkong, Austraila, Afghanistan and Jordon",
+            "result": {
+              "status": "passed",
+              "duration": 45764000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User verifies the search by Status Registered, Registeration in progress and Not Registered",
+            "result": {
+              "status": "passed",
+              "duration": 9840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User verifies the Apply button",
+            "result": {
+              "status": "passed",
+              "duration": 470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User verifies the Clear filter button",
+            "result": {
+              "status": "passed",
+              "duration": 2840000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies the Pagination",
+            "result": {
+              "status": "passed",
+              "duration": 6779000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
