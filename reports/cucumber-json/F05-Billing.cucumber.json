@@ -1,0 +1,763 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F05-Creating and validating the Billing for V2 project",
+    "line": 9,
+    "id": "f05-creating-and-validating-the-billing-for-v2-project",
+    "tags": [],
+    "uri": "F05-Billing.feature",
+    "elements": [
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-page-validation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Billing page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to the Billing page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 26644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks on Billing tab",
+            "result": {
+              "status": "passed",
+              "duration": 5283000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User will be redirected to the WELL Certification Billing page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User verifies fields on the Billing page",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;invoice-page-validation",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Invoice page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User navigate to the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 2989000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User will be redirected to the WELL Certification Invoice page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 1394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies fields on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User verifies WELL logo on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User verifies WELL Address for United States on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 252000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User verifies Owner Name on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User verifies Owner Email on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User verifies Project Name on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 105000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User verifies Address on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User verifies country on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User verifies date on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User verifies Amount on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User verifies fields on the Payment Options",
+            "result": {
+              "status": "passed",
+              "duration": 3387000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;update-invoice-page-validation",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Update Invoice page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 37
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "User navigate to the Update Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 2033000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "User will be redirected to the WELL Certification Update Invoice page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User verifies fields on the Update Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 787000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User verifies date on the Invoice page",
+            "result": {
+              "status": "passed",
+              "duration": 1589000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-for-country-discount-in-well-v2-project",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Billing for country discount in WELL V2 project",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 45
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 47,
+            "name": "User navigate to the WELL Certification enrollments list page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 15523000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User search for the project by project ID",
+            "result": {
+              "status": "passed",
+              "duration": 4043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "User clicks on the Apply button",
+            "result": {
+              "status": "passed",
+              "duration": 2977000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "User clicks on Billing tab",
+            "result": {
+              "status": "passed",
+              "duration": 5599000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "User clicks on pay now button",
+            "result": {
+              "status": "passed",
+              "duration": 2550000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 52,
+            "name": "User enters the Card Details",
+            "result": {
+              "status": "passed",
+              "duration": 16511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User clicks on pay now button and verifies the Receipt for the payment",
+            "result": {
+              "status": "passed",
+              "duration": 11235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 56,
+            "name": "User will be redirected to WELL Certification Receipt page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User verifies fields on the Receipt page",
+            "result": {
+              "status": "passed",
+              "duration": 716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 1677000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-for-country-discount-in-well-v2-core-project",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "Billing for country discount in WELL V2 core project",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 61
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "User navigate to the WELL Certification enrollments list page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 16061000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "User search for the WELL V2 core project by project ID",
+            "result": {
+              "status": "passed",
+              "duration": 4001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 65,
+            "name": "User clicks on the Apply button for the WELL V2 core project",
+            "result": {
+              "status": "passed",
+              "duration": 2711000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User clicks on Billing tab",
+            "result": {
+              "status": "passed",
+              "duration": 5214000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 67,
+            "name": "User clicks on pay now button",
+            "result": {
+              "status": "passed",
+              "duration": 2491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 68,
+            "name": "User enters the Card Details",
+            "result": {
+              "status": "passed",
+              "duration": 9547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 70,
+            "name": "User clicks on pay now button and verifies the Receipt for the payment",
+            "result": {
+              "status": "passed",
+              "duration": 11855000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 72,
+            "name": "User will be redirected to WELL Certification Receipt page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 177000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 73,
+            "name": "User verifies fields on the Receipt page",
+            "result": {
+              "status": "passed",
+              "duration": 708000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "passed",
+              "duration": 1446000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-for-sector-discount-'chinav2project'",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Billing for Sector discount 'ChinaV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 77
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 79,
+            "name": "User navigates to the Billing page by selecting the project Id 'ChinaV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 28006000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User verifies fields on the Billing page for sector discount",
+            "result": {
+              "status": "passed",
+              "duration": 1912000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 81,
+            "name": "User clicks on pay now button for special country",
+            "result": {
+              "status": "passed",
+              "duration": 912000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User enters the Card Details",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 40000ms: Expected to find element: `undefined`, but never found it.\n    at Context.eval (https://test-nuxt.wellcertified.com/__cypress/tests?p=cypress\\integration\\F05-Billing.feature:413:8)"
+            },
+            "embeddings": [
+              {
+                "mime_type": "image/png"
+              }
+            ]
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "User clicks on pay now button and verifies the Receipt for the payment",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "User will be redirected to WELL Certification Receipt page successfully",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "User verifies fields on the Receipt page",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 88,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Alternatives, Overview, Edit, Pricing and Billing",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-for-no-discount-'hongkongv2project'",
+        "keyword": "Scenario",
+        "line": 108,
+        "name": "Billing for No discount 'HongKongV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 95
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "User navigates to the Billing page by selecting the project Id 'HongKongV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 26956000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "User verifies fields on the Billing page for special country",
+            "result": {
+              "status": "passed",
+              "duration": 4003000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 99,
+            "name": "User clicks on pay now button for special country",
+            "result": {
+              "status": "passed",
+              "duration": 1086000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "User verifies invoice form fields",
+            "result": {
+              "status": "passed",
+              "duration": 3993000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "User enters the Card Details",
+            "result": {
+              "status": "passed",
+              "duration": 10939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "User clicks on pay now button and verifies the Receipt for the payment",
+            "result": {
+              "status": "passed",
+              "duration": 11979000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "User will be redirected to WELL Certification Receipt page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-creating-and-validating-the-billing-for-v2-project;billing-for-no-discount-'macaov2project'",
+        "keyword": "Scenario",
+        "line": 109,
+        "name": "Billing for No discount 'MacaoV2Project'",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 95
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 97,
+            "name": "User navigates to the Billing page by selecting the project Id 'MacaoV2Project' from project list by logging in to the wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 27713000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 98,
+            "name": "User verifies fields on the Billing page for special country",
+            "result": {
+              "status": "passed",
+              "duration": 2232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 99,
+            "name": "User clicks on pay now button for special country",
+            "result": {
+              "status": "passed",
+              "duration": 1200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "User verifies invoice form fields",
+            "result": {
+              "status": "passed",
+              "duration": 4858000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "User enters the Card Details",
+            "result": {
+              "status": "passed",
+              "duration": 17547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 102,
+            "name": "User clicks on pay now button and verifies the Receipt for the payment",
+            "result": {
+              "status": "passed",
+              "duration": 13488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 103,
+            "name": "User will be redirected to WELL Certification Receipt page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 399000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

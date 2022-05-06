@@ -1,0 +1,182 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F05-Overview module for V2 Project",
+    "line": 10,
+    "id": "f05-overview-module-for-v2-project",
+    "tags": [],
+    "uri": "F15-Overview.feature",
+    "elements": [
+      {
+        "id": "f05-overview-module-for-v2-project;overview-module-for-v2-project",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Overview module for V2 Project",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 13
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "User navigate to the Overview page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 25109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "User clicks on Overview tab",
+            "result": {
+              "status": "passed",
+              "duration": 354000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "User redirects to Project Information Page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 2948000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f05-overview-module-for-v2-project;verifies-project-information-fields",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Verifies Project Information fields",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 20
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "User is on Overview page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 2687000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "User verfies the Project ID",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies WELL v2 Q4 2021 addenda",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User verfies the Project Name",
+            "result": {
+              "status": "passed",
+              "duration": 77000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User verfies the Gross Area",
+            "result": {
+              "status": "passed",
+              "duration": 93000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "User verfies the Project Location",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User verfies the Anticipated Date of construction completion",
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User verfies the Estimated date of document submission",
+            "result": {
+              "status": "passed",
+              "duration": 98000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "User verfies the Owner",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User verfies the Owner Industry",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "User verifies the Owner Website",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

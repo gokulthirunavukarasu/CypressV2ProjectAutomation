@@ -1,0 +1,1392 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "F03-Create V2 Project",
+    "line": 9,
+    "id": "f03-create-v2-project",
+    "tags": [],
+    "uri": "F03-CreateProject.feature",
+    "elements": [
+      {
+        "id": "f03-create-v2-project;v2-project-name-form-page-validation",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "V2 Project Name form page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to the WELL v2 Project Lists page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 19171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User click on Start a v2 project button and verifies Create form fields",
+            "result": {
+              "status": "passed",
+              "duration": 5424000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "User clicks on continue button without entering the mandatory fields and verifies error meassage",
+            "result": {
+              "status": "passed",
+              "duration": 403000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 3352000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2339000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User will be redirected to project location form page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User Verifies the added project name by clicking on back button",
+            "result": {
+              "status": "passed",
+              "duration": 337000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-location-form-page-validation",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "V2 Project location form page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 23
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 25,
+            "name": "User navigates to the project location page",
+            "result": {
+              "status": "passed",
+              "duration": 3143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "User verifies the project location page fields",
+            "result": {
+              "status": "passed",
+              "duration": 668000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 27,
+            "name": "User clicks on continue button without entering the mandatory fields for location and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 601000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "User enters data to Country, State, Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 2491000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "User will be redirected to the project details form page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 73000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "User verifies the added project location by clicking on back button",
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-area-form-page-validation",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "V2 Project Area form page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 34
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "User navigates to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 2960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User verifies the Project Area Size in sqm by entering the sqft value",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "User clicks on continue button without entering the mandatory fields for area size and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 960000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "User will be redirected to the project details space type form page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 141000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User verifies the added Project Area Size by clicking on back button",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-space-type-form-page-validation",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "V2 Project space type form page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 44
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "User navigates to the WELL v2 Project space type",
+            "result": {
+              "status": "passed",
+              "duration": 980000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "User verifies the Project space type fields",
+            "result": {
+              "status": "passed",
+              "duration": 522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "User clicks on continue button without entering the mandatory fields for space type and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 2428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2553000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "User will be redirected to the WELL Program page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-choose-a-program-page-validation",
+        "keyword": "Scenario",
+        "line": 54,
+        "name": "V2 choose a program page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 53
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 55,
+            "name": "User navigates to the choose a program page",
+            "result": {
+              "status": "passed",
+              "duration": 685000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User verifies the choose a program page fields",
+            "result": {
+              "status": "passed",
+              "duration": 511000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "User selects the well certification program for V2 project",
+            "result": {
+              "status": "passed",
+              "duration": 2501000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "User verifies the choose a program by clicking on back button",
+            "result": {
+              "status": "passed",
+              "duration": 524000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-choose-a-program-ownership-type-page-validation",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "V2 choose a program ownership type page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 61
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "User navigates to the choose a program ownership type page",
+            "result": {
+              "status": "passed",
+              "duration": 1549000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "User verifies the choose a program ownership type page fields",
+            "result": {
+              "status": "passed",
+              "duration": 340000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "User clicks on continue button without entering the mandatory fields for ownership type and verifies error message",
+            "result": {
+              "status": "passed",
+              "duration": 495000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 66,
+            "name": "User selects the ownership type radio button and click continue button",
+            "result": {
+              "status": "passed",
+              "duration": 718000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 67,
+            "name": "User verifies the project creation",
+            "result": {
+              "status": "passed",
+              "duration": 263000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;back-to-list-link-in-choose-a-program-ownership-page-validation",
+        "keyword": "Scenario",
+        "line": 71,
+        "name": "Back To List link in choose a program ownership page validation",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 70
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "User navigate to the WELL Certification Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 20183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 4706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 74,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2379000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "User enters data to Country, State, Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 3254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 370000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 80,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 81,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 82,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 84,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 192000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "User verifies by click on back to list button",
+            "result": {
+              "status": "passed",
+              "duration": 1900000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-creation",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "V2 Project Creation",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 89
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 91,
+            "name": "User navigate to the WELL V2 Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 26080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 92,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 4800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 93,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 95,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 96,
+            "name": "User enters data to Country, State, Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 3115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 97,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 318000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 99,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 100,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 101,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 103,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 211000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 104,
+            "name": "User selects the program for V2 project",
+            "result": {
+              "status": "passed",
+              "duration": 561000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 105,
+            "name": "User selects the ownership type radio button and click continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 106,
+            "name": "Project Created and user redirect to the Project Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 8844000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 107,
+            "name": "User enters Estimate Date of Document submission",
+            "result": {
+              "status": "passed",
+              "duration": 5762000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 108,
+            "name": "Get the WELL V2 project ID and store into Json",
+            "result": {
+              "status": "passed",
+              "duration": 740000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 109,
+            "name": "User Verifies left panel tab names for Dashboard, Team, Alternatives, Overview, Edit, Pricing, Billing and Enroll",
+            "result": {
+              "status": "passed",
+              "duration": 1308000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-core-project-creation",
+        "keyword": "Scenario",
+        "line": 113,
+        "name": "V2 Core Project Creation",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 112
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 114,
+            "name": "User navigate to the WELL V2 Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 22586000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 115,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 4559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 116,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 118,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 216000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 119,
+            "name": "User enters data to Country, State, Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 3364000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 120,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 327000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 122,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 123,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1062000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 124,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 126,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 127,
+            "name": "User selects the program for WELL Core certification",
+            "result": {
+              "status": "passed",
+              "duration": 1182000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 128,
+            "name": "Project Created and user redirect to the Project Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 7635000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 129,
+            "name": "User enters Estimate Date of Document submission",
+            "result": {
+              "status": "passed",
+              "duration": 4709000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 130,
+            "name": "Get the WELL V2 core project ID and store into Json",
+            "result": {
+              "status": "passed",
+              "duration": 1199000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-creation-for-special-country('china')",
+        "keyword": "Scenario",
+        "line": 156,
+        "name": "V2 Project Creation for special country('China')",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 133
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 135,
+            "name": "User navigate to the WELL V2 Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 25492000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 136,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 5836000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2518000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 282000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "User enters data to Country 'China' , State 'Henan' , Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 4206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1456000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 145,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 3259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "User selects the program for V2 project",
+            "result": {
+              "status": "passed",
+              "duration": 1021000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 149,
+            "name": "User selects the ownership type radio button and click continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2018000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "Project Created and user redirect to the Project Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 9117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "User enters Estimate Date of Document submission",
+            "result": {
+              "status": "passed",
+              "duration": 4632000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 152,
+            "name": "Get the V2 project ID for special country and store into Json",
+            "result": {
+              "status": "passed",
+              "duration": 895000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-creation-for-special-country('hong-kong,-china')",
+        "keyword": "Scenario",
+        "line": 157,
+        "name": "V2 Project Creation for special country('Hong Kong, China')",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 133
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 135,
+            "name": "User navigate to the WELL V2 Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 22885000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 136,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 4976000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2392000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "User enters data to Country 'Hong Kong, China' , State 'Hong Kong Island' , Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 3295000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1305000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 145,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "User selects the program for V2 project",
+            "result": {
+              "status": "passed",
+              "duration": 694000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 149,
+            "name": "User selects the ownership type radio button and click continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1394000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "Project Created and user redirect to the Project Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 7679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "User enters Estimate Date of Document submission",
+            "result": {
+              "status": "passed",
+              "duration": 5085000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 152,
+            "name": "Get the V2 project ID for special country and store into Json",
+            "result": {
+              "status": "passed",
+              "duration": 1244000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "f03-create-v2-project;v2-project-creation-for-special-country('macao,-china')",
+        "keyword": "Scenario",
+        "line": 158,
+        "name": "V2 Project Creation for special country('Macao, China')",
+        "tags": [
+          {
+            "name": "@SmokeTest",
+            "line": 133
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 135,
+            "name": "User navigate to the WELL V2 Creation page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 35277000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 136,
+            "name": "User enter data to Project name field",
+            "result": {
+              "status": "passed",
+              "duration": 4657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 137,
+            "name": "User clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2380000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 139,
+            "name": "User navigate to the WELL v2 Project location page",
+            "result": {
+              "status": "passed",
+              "duration": 234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 140,
+            "name": "User enters data to Country 'Macao, China' , State '' , Street address, City and Postal Code fields",
+            "result": {
+              "status": "passed",
+              "duration": 2516000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 141,
+            "name": "User clicks on continue button for Project location",
+            "result": {
+              "status": "passed",
+              "duration": 622000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 143,
+            "name": "User navigate to the WELL v2 Project details page",
+            "result": {
+              "status": "passed",
+              "duration": 229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 144,
+            "name": "User enter data to Project area field and clicks on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 145,
+            "name": "User checks the multiple checkbox space type option and click on continue button",
+            "result": {
+              "status": "passed",
+              "duration": 2825000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 147,
+            "name": "User navigates to the WELL v2 Project program page",
+            "result": {
+              "status": "passed",
+              "duration": 238000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 148,
+            "name": "User selects the program for V2 project",
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 149,
+            "name": "User selects the ownership type radio button and click continue button",
+            "result": {
+              "status": "passed",
+              "duration": 1805000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 150,
+            "name": "Project Created and user redirect to the Project Dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 8488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 151,
+            "name": "User enters Estimate Date of Document submission",
+            "result": {
+              "status": "passed",
+              "duration": 5108000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 152,
+            "name": "Get the V2 project ID for special country and store into Json",
+            "result": {
+              "status": "passed",
+              "duration": 1224000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

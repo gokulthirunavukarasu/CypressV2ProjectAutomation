@@ -1,0 +1,542 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating Pricing",
+    "line": 9,
+    "id": "validating-pricing",
+    "tags": [],
+    "uri": "F06-Pricing.feature",
+    "elements": [
+      {
+        "id": "validating-pricing;pricing-for-country-discount-in-well-v2-project",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Pricing for country discount in WELL V2 project",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 12
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 14,
+            "name": "User navigate to the Pricing page by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 30246000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "User clicks on Pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 2527000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "User will be redirected to the WELL Certification Pricing page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7955000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "User verifies fields on the Pricing page",
+            "result": {
+              "status": "passed",
+              "duration": 278000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "User verifies project name",
+            "result": {
+              "status": "passed",
+              "duration": 139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "User verifies Enrollment fees",
+            "result": {
+              "status": "passed",
+              "duration": 140000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "User verifies Program fees",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "User verifies country discount applied name",
+            "result": {
+              "status": "passed",
+              "duration": 133000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "User verifies country discount applied percentage",
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "User verifies Total WELL Fees",
+            "result": {
+              "status": "passed",
+              "duration": 178000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "User verifies Download",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "User verifies Onsite performance testing and data collection",
+            "result": {
+              "status": "passed",
+              "duration": 257000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-pricing;pricing-for-sector-special-'chinav2project'-country",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Pricing for sector special 'ChinaV2Project' country",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 28
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "User navigate to the Pricing page 'ChinaV2Project' by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 22909000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "User clicks on Pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 2444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "User will be redirected to the WELL Certification Pricing page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7185000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "User verifies fields on the Pricing page",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "User verifies project name",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 35,
+            "name": "User verifies Enrollment fees",
+            "result": {
+              "status": "passed",
+              "duration": 126000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "User verifies Program fees",
+            "result": {
+              "status": "passed",
+              "duration": 134000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "User verifies sector discount applied name",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "User verifies sector discount price",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "User verifies sector discount applied percentage",
+            "result": {
+              "status": "passed",
+              "duration": 147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "User verifies Total WELL Fees",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "User verifies estimate fee date range",
+            "result": {
+              "status": "passed",
+              "duration": 233000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 42,
+            "name": "User verifies Download",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-pricing;pricing-for-no-discount-'hongkongv2project'",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Pricing for No discount 'HongKongV2Project'",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "User navigate to the Pricing page 'HongKongV2Project' by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 22247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "User clicks on Pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 2190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User will be redirected to the WELL Certification Pricing page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 6663000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User verifies fields on the Pricing page",
+            "result": {
+              "status": "passed",
+              "duration": 268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "User verifies project name",
+            "result": {
+              "status": "passed",
+              "duration": 123000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User verifies Enrollment fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User verifies Program fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 156000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User verifies No discount",
+            "result": {
+              "status": "passed",
+              "duration": 150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "User verifies Total WELL Fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 151000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "User verifies Onsite performance testing and data collection for special country",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "User verifies Download",
+            "result": {
+              "status": "passed",
+              "duration": 124000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-pricing;pricing-for-no-discount-'macaov2project'",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Pricing for No discount 'MacaoV2Project'",
+        "tags": [
+          {
+            "name": "@RegressionTest",
+            "line": 49
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 51,
+            "name": "User navigate to the Pricing page 'MacaoV2Project' by logging in to wellcertified",
+            "result": {
+              "status": "passed",
+              "duration": 20665000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "User clicks on Pricing tab",
+            "result": {
+              "status": "passed",
+              "duration": 2417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 53,
+            "name": "User will be redirected to the WELL Certification Pricing page successfully",
+            "result": {
+              "status": "passed",
+              "duration": 7349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "User verifies fields on the Pricing page",
+            "result": {
+              "status": "passed",
+              "duration": 359000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "User verifies project name",
+            "result": {
+              "status": "passed",
+              "duration": 121000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "User verifies Enrollment fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 223000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "User verifies Program fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 190000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "User verifies No discount",
+            "result": {
+              "status": "passed",
+              "duration": 143000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "User verifies Total WELL Fees for special country",
+            "result": {
+              "status": "passed",
+              "duration": 171000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "User verifies Onsite performance testing and data collection for special country",
+            "result": {
+              "status": "passed",
+              "duration": 149000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "User verifies Download",
+            "result": {
+              "status": "passed",
+              "duration": 131000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
